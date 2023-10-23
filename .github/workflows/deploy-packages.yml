@@ -21,7 +21,7 @@ jobs:
           repository: carbon-design-system/carbon-website
           ref: main
       - name: Use Node.js 18.x
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.org'
@@ -64,7 +64,7 @@ jobs:
           repository: carbon-design-system/design-language-website
           ref: master
       - name: Use Node.js 18.x
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18.x'
           registry-url: 'https://registry.npmjs.org'
